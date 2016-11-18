@@ -1,0 +1,15 @@
+########## CURVA DE EXCITACAO - BOBINA GIRANTE ##########
+
+### Dados de Configuração ###
+arquivo                        	C:\Users\labimas\Desktop\Sextupolos\Todas as correntes\BS-042\Medida 2\BS-042_S_BOB_+0004A_161027_092302.dat
+data                           	27/10/2016
+hora                           	09:23:02
+temperatura_ima(C)             	23.1
+ganho_integrador               	100
+nr_pontos_integracao           	144
+velocidade(rps)                	1.0
+aceleracao(rps^2)              	0.5
+nr_coletas                     	3
+nr_voltas                      	10
+intervalo_analise              	6-23
+sentido_de_rotacao             	Horario
