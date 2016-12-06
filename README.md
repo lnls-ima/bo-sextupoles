@@ -1,6 +1,3 @@
-# bo-sextupoles
-Booster Sextupoles
-
 BO-Sextupoles
 
 Repository with Sirius booster sextupoles data
