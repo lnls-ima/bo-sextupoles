@@ -1,0 +1,81 @@
+FIELDMAP ANALYSIS
+=================
+timestamp:                              05-Jul-2013 15:25:24
+magnet type:                            sextupole
+nominal deflection angle:               0.0000000 deg.
+
+BEAM PARAMETERS
+
+energy:                                 3 GeV
+relativistic factor:                    5870.8538
+magnetic Rigidity:                      10.0069 T.m
+current:                                1.5 mA
+
+FIELDMAP DATA
+
+--- fieldmap #01 ---
+filename:                               2013-06-05 Sextupolo_Booster_Modelo 3_-20_20mm_-300_300mm.txt
+physical length:                        200 mm
+magnetic gap:                           40 mm
+horizontal grid (x):                    [-20,20] mm, 81 pts
+longitudinal grid (z):                  [-300,300] mm, 601 pts
+vertical field By:                      [-0.0374,+0.0000] T
+horizontal field Bx:                    [-0.0000,+0.0000] T
+longitudinal field Bz:                  [-0.0000,+0.0000] T
+
+RUNGE-KUTTA TRAJECTORY
+
+deflection angle:                       0.0000085 deg. [+Inf %]
+irradiated power:                       0.0000 kW
+initial [x,y,z,beta_x,beta_y,beta_z]:   [ +0.000  +0.000  +0.000  +0.000  +0.000  +1.000 ] (mm/n.u.)
+arclength  s interval:                  [+0.000, +340.000] mm
+horizontal x interval:                  [+0.000, +0.000] mm
+longitudinal z interval:                [+0.000, +340.000] mm
+max. abs. (Bx,By,Bz):                   [-0.0000,+0.0000,-0.0000] T
+multipole grid (x):                     [-17.5,17.5] mm, 27 pts
+multipoles:                             [order]   [maximum abs. value]  [integrated value]    [tracy3 coeffs]       
+                                        02        -1.06248E+02 T/m^2    -1.15412E+01 T/m      +1.00000E+00
+                                        08        -2.64606E+11 T/m^8    +1.02024E+10 T/m^7    -2.53908E-02
+                                        14        +8.09157E+21 T/m^14   +2.21648E+20 T/m^13   -1.58441E-02
+
+TRANSFER MATRIX: AT MODEL vs RUNGE-KUTTA
+
+determinant (Runge-Kutta): +1.000011154434200
+element   [runge-kutta]         [at-model]            [error %]             
+M11       +0.999836             +1.000000             +0.016393             
+M12       +0.339992             +0.340000             +0.002347             
+M21       -0.000576             -0.000001             -99.800070            
+M22       +0.999979             +1.000000             +0.002060             
+
+TRANSFER MAPS: AT MODEL vs RUNGE-KUTTA
+
+horizontal grid (x):                    [-17.5,17.5] mm, 27 pts
+angular grid (px):                      [0,0] mm, 1 pts
+max. abs. delta x:                      0.02 um
+max. abs. delta px:                     0.07 urad
+max. abs. delta dl:                     0.00 mm
+fitted multipoles:                      [order]   [runge-kutta]         [at-model]            [error %]             
+                                        02        -1.15248E+00 1/m^2    -1.15248E+00 1/m^2    +0.000
+                                        08        +9.57610E+08 1/m^8    +9.57610E+08 1/m^8    +0.000
+                                        14        +2.36043E+19 1/m^14   +2.36043E+19 1/m^14   -0.000
+
+AT MODEL SEGMENTATION
+
+LENGTH[m] ANGLE[rad]        (n Bn)... 
+0.072     +0.0000000000E+00  2 +1.0616186350E+01    8 -8.8550350138E+09    14 -2.2059546305E+20   
+0.012     +0.0000000000E+00  2 +1.0603718132E+01    8 -8.1718682753E+09    14 -2.3476895138E+20   
+0.004     +0.0000000000E+00  2 +1.0539420111E+01    8 -4.4175032004E+09    14 -3.0911416930E+20   
+0.004     +0.0000000000E+00  2 +1.0381698932E+01    8 +3.4063522741E+09    14 -4.5764492741E+20   
+0.004     +0.0000000000E+00  2 +9.9494135076E+00    8 +1.7559579803E+10    14 -6.9746812366E+20   
+0.003     +0.0000000000E+00  2 +9.1562644157E+00    8 +2.5499235505E+10    14 -7.8239905087E+20   
+0.002     +0.0000000000E+00  2 +8.2867739868E+00    8 +1.7574196548E+10    14 -6.0480085562E+20   
+0.002     +0.0000000000E+00  2 +7.4356329677E+00    8 +3.1350185248E+09    14 -3.2748411420E+20   
+0.003     +0.0000000000E+00  2 +6.2849708484E+00    8 -1.3729438981E+10    14 +2.4145380095E+19   
+0.003     +0.0000000000E+00  2 +4.9428813633E+00    8 -2.3770367016E+10    14 +2.8368402918E+20   
+0.005     +0.0000000000E+00  2 +3.4461383191E+00    8 -2.4265251792E+10    14 +3.6093575826E+20   
+0.007     +0.0000000000E+00  2 +1.9142711308E+00    8 -1.7143435921E+10    14 +2.7887299774E+20   
+0.008     +0.0000000000E+00  2 +9.0332841130E-01    8 -8.3148091120E+09    14 +1.4072711938E+20   
+0.007     +0.0000000000E+00  2 +4.4292513356E-01    8 -3.5192987925E+09    14 +6.0231193646E+19   
+0.018     +0.0000000000E+00  2 +1.7352805197E-01    8 -1.0145275775E+09    14 +1.7306399165E+19   
+0.001     +0.0000000000E+00  2 +7.0802651174E-01    8 +5.7134176348E+10    14 -1.3738286093E+21   
+

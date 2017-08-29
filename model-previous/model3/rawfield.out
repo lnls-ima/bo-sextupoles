@@ -1,0 +1,14 @@
+--- fieldmap ---
+timestamp:                          2014-11-10_17-14-40
+filename:                           Sextupolo_Booster_Modelo 3_-20_20mm_-300_300mm.txt
+magnet_label:                       Sextupolo_Booster
+magnet_length:                      212.0 mm
+main_coil_current:                  9.4 A
+magnetic_gap:                       40.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            81 points in [-20.0,20.0] mm (step of 0.500000 mm)
+rz_grid:                            601 points in [-300.0,300.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.02986 max:+0.00009) (min:-0.00002 max:+0.00009) Tesla
+bx@(all)(axis):                     (min:-0.00000 max:+0.00000) (min:-0.00000 max:+0.00000) Tesla
+bz@(all)(axis):                     (min:-0.00000 max:+0.00000) (min:-0.00000 max:+0.00000) Tesla
